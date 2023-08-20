@@ -1,0 +1,51 @@
+
+.new-tweet {
+    display: none;
+    padding-left: 4rem;
+    width: 90%;
+    margin-top: 1rem;
+  } 
+  
+  #tweet-text {
+    width: 100%;
+    max-height: 2rem;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(83, 54, 16);
+    font-family: inherit;
+  }
+  
+  #tweet-text:hover {
+    border-bottom: 3px solid  #4056A1;
+  }
+  .submit-control {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-family: 'Bungee';
+    color: rgb(83, 54, 16);
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background-color: #873F9D;
+    color: #FFFFFF;
+    border: 0;
+    padding-inline: .5rem;
+  }
+  button:hover {
+    background-color: #4056A1;
+  }
+  .warning {
+    color: red;
+  }
+  .error {
+    display: none;
+    margin-inline: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border:red solid 2px;
+    min-height: 4rem;
+    text-align: center;
+  }

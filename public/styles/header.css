@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    max-height: 45vh;
+    min-width: 17vw;
+    background-color: #8a008a;
+    background-image: url(http://www.transparenttextures.com/patterns/black-thread-light.png);
+    margin-top: 12rem;
+    margin-inline: auto;
+  }
+
+ 

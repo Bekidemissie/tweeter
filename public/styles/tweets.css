@@ -1,0 +1,77 @@
+ 
+ .container {
+    display: flex;
+    flex-flow: row wrap;
+   }
+   .tweet {
+     display: flex;
+     flex-flow: row wrap;
+     margin: 2rem;
+     width: 95%;
+   }
+   .tweet article header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: inherit;
+    background-image: none;
+    min-width: 90%;
+    margin: 0;
+  }
+  
+  .avatar {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vh;
+    min-width: 4vw;
+  }
+  h3 {
+    font-weight: 500;
+    padding: 2vh;
+  }
+  #username {
+    color: gray;
+    padding-top: 1.5vh;
+  }
+  article {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: fit-content;
+    width: 100%;
+    border: black solid 3px;
+    padding-inline: 2rem;
+    font-weight: 600;
+  }
+  article:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+   article  main {
+    margin: 0;
+    border-bottom: 3px solid rgb(83, 54, 16);
+    padding-block: 1rem;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  article footer p {
+    font-size: 1.4rem;
+  }
+  
+  #tweet-foot{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #icons{
+    letter-spacing: .4rem;
+    padding: 1rem;
+  }
+  i:hover{
+    color: rgb(184, 49, 49);
+  }
+  .tweet img {
+    width: 5rem;
+    height: 5rem;
+  }

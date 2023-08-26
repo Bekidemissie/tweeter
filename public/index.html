@@ -38,21 +38,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
-  <body>
-    <!-- Top nav bar (fixed) -->
-    <nav>
-      <span>tweeter</span>
-    </nav>
-    <header>
-      <div>
-          <img src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div>
-          <h2>Your Name</h2>
-      </div>
-  </header>
-
+ 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
@@ -69,15 +55,17 @@
         </div>
         <br />
         <div>
-          <h2>Your Name</h2>
+          <h2>Bereket yehualashet</h2>
         </div>
       </header>
       <!-- Page-specific (main) content here -->
-      <div class="tweetdata">
+      <div class="new-tweet">
         <main class="container-main">
-          <p id="empty" class="error">🔥 Please enter some tweets 🔥</p>
+          <p id="empty" class="error">  Please enter some tweets
+          <i class="fas fa-exclamation-triangle" style= "color: red"></i>   </p>
           <div id="long-error" class="error">
-            <p>🔥 Please limit your tweets to 140 characters 🔥</p>
+            <p> Please limit your tweets to 140 characters 
+            <i class="fas fa-exclamation-triangle" style= "color: red"></i> </p>
           </div>
 
           <section class="new-tweet">
@@ -90,6 +78,7 @@
                 <output name="counter" class="counter" for="tweet-text"
                   >140</output
                 >
+               
               </div>
             </form>
           </section>

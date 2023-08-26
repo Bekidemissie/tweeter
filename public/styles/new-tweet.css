@@ -42,6 +42,8 @@
   }
   .error {
     display: none;
+    border: 3px solid red;
+    color: red;
     margin-inline: 3rem;
     margin-top: 2rem;
     padding: 1rem;

@@ -10,7 +10,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 ![Tweeter - Home Page - Google Chrome 2023-08-26 10_07_30 PM](https://github.com/Bekidemissie/tweeter/assets/130595119/9cce10f9-9ac8-4426-b338-427d2fcee4a8)
 
-![Tweeter - Home Page - Google Chrome 2023-08-26 10_07_49 PM](https://github.com/Bekidemissie/tweeter/assets/130595119/9b872e19-4892-48a6-ae1c-040361a07401)
 
 ![Tweeter - Home Page - Google Chrome 2023-08-26 10_08_35 PM](https://github.com/Bekidemissie/tweeter/assets/130595119/853cf27f-dabe-4883-ac5a-fcf0b2fbfa65)
 

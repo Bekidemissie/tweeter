@@ -10,8 +10,8 @@ $(document).ready(function () {
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
-    loadTweets();
   };
+ 
 
   //Slide the new tweet box
 

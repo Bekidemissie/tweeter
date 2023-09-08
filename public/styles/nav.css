@@ -25,6 +25,7 @@ nav {
   }
   
   .icon {
+    display: flex;
     color: rgb(184, 49, 49);
     font-size: medium;
     align-self: center;
@@ -37,4 +38,27 @@ nav {
   }
   .write-new p {
     margin-block: 0;
+  }
+  @media only screen and (min-width: 1024px) {
+    
+    nav {
+      height: 120px;
+    }
+  
+    .lcon{
+      font-size: 3rem;
+    }
+  
+    span.write-new-tweet {
+      font-size: 1.5rem;
+    }
+  }
+  @keyframes MoveUpDown {
+    0%,
+    50% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }

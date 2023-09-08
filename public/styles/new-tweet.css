@@ -1,5 +1,7 @@
 
 .new-tweet {
+    display: flex;
+    flex-direction: column;
     padding-left: 4rem;
     width: 90%;
     margin-top: 1rem;
@@ -50,3 +52,7 @@
     min-height: 4rem;
     text-align: center;
   }
+ 
+     
+  
+  
